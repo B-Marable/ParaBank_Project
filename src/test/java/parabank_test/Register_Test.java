@@ -11,6 +11,16 @@ public class Register_Test extends BaseClass{
 		
 		Register_Page rp = new Register_Page(driver);
 		
+		String firstNameVal = "p";
+		String lastNameVal = "o";
+		String addressVal = "i";
+		String cityVal = "u";
+		String stateVal = "y";
+		String zipCodeVal = "1870";
+		String phoneNumVal = "0999";
+		String ssnVal = "999";
+		
+		
 	}
 
 }

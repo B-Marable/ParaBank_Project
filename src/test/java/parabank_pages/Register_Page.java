@@ -67,7 +67,21 @@ public class Register_Page {
 		
 	}
 	
-	public void RegisterUser(String fn, String ln) {
+	public void RegisterUser(String fn, String ln, String add, String cit, String sta, String code, String phone, String sNum, String un, String pw, String cp) {
+		
+		fName.sendKeys(fn);
+		lName.sendKeys(ln);
+		address.sendKeys(add);
+		city.sendKeys(cit);
+		state.sendKeys(sta);
+		zipCode.sendKeys(code);
+		phoneNum.sendKeys(phone);
+		ssn.sendKeys(sNum);
+		username.sendKeys(un);
+		password.sendKeys(pw);
+		confirmPass.sendKeys(cp);
+		
+		registerBtn.click();
 		
 	}
 	
