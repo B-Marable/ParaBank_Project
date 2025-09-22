@@ -11,8 +11,8 @@ public class Login_Test extends BaseClass {
 
 		Login_Page lp = new Login_Page(driver);
 
-		String usernameVal = "niktest";
-		String passwordVal = "niktest";
+		String usernameVal = "sampleTest";
+		String passwordVal = "sampleTest";
 
 		lp.AssertLoginPageHeading();
 		lp.Login(usernameVal, passwordVal);

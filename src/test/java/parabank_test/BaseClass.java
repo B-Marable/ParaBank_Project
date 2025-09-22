@@ -15,13 +15,13 @@ public class BaseClass {
 	@BeforeMethod
 	public void LaunchSite() {
 
-		String browserName = System.getProperty("Browser");
-
-		if (browserName.equalsIgnoreCase("firefox")) {
-			driver = new FirefoxDriver();
-		} else {
-			driver = new ChromeDriver();
-		}
+//		String browserName = System.getProperty("Browser");
+//
+//		if (browserName.equalsIgnoreCase("firefox")) {
+//			driver = new FirefoxDriver();
+//		} else {
+//			driver = new ChromeDriver();
+//		}
 
 		driver = new FirefoxDriver();
 

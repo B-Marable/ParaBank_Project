@@ -11,7 +11,7 @@ public class Login_Page {
 	WebDriver driver;
 	
 	// LOCATORS
-	@FindBy(xpath="//h2[contains(text(), 'Customer Login')]")
+	@FindBy(tagName="h2")
 	WebElement customerLoginHeading;
 	
 	@FindBy(xpath="//input[@name='username']")
